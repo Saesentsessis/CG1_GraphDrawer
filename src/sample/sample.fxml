@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="768.0" prefWidth="1024.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="sample.Controller">
+    <Canvas fx:id="canvas" height="768.0" width="1024.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+   <TextField fx:id="startx_text_field" promptText="start x..." AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" />
+   <TextField fx:id="endx_text_field" layoutX="10.0" layoutY="753.0" promptText="end x..." AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="149.0" />
+   <TextField fx:id="stepx_text_field" layoutX="159.0" layoutY="753.0" promptText="step..." AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="298.0" />
+   <Button fx:id="draw_btn" mnemonicParsing="false" text="Draw" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+</AnchorPane>
